@@ -18,8 +18,8 @@
 #include <dt-bindings/zmk/rgb.h>
 #include <dt-bindings/zmk/backlight.h>
 
-#define BROWSER_NEXTTAB LG(LA(RIGHT))
-#define BROWSER_PREVTAB LG(LA(LEFT))
+#define BROWSER_NEXTTAB LG(LS(RIGHT_BRACKET))
+#define BROWSER_PREVTAB LG(LS(LEFT_BRACKET))
 
 &lt {
     quick-tap-ms = <300>;
